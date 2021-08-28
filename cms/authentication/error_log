@@ -1,0 +1,138 @@
+[15-Dec-2020 12:33:51 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 12:33:56 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 12:33:56 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 12:33:56 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 12:33:56 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[15-Dec-2020 13:18:10 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 13:18:14 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 13:18:14 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 13:18:14 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 13:18:14 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[15-Dec-2020 14:11:10 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:11:16 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:11:16 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:11:16 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:11:16 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[15-Dec-2020 14:12:39 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:12:49 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:12:49 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:12:49 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:12:49 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[15-Dec-2020 14:14:13 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:14:16 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:14:16 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:14:16 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:14:16 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[15-Dec-2020 14:14:42 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:14:45 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:14:45 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:14:45 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:14:45 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[15-Dec-2020 14:16:03 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:16:08 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:16:08 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:16:08 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:16:08 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 39
+[15-Dec-2020 14:19:01 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:19:05 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 57
+[15-Dec-2020 14:19:23 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:19:29 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:19:29 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:19:29 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:19:29 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 40
+[15-Dec-2020 14:20:04 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:20:07 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:20:07 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:20:07 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 14
+[15-Dec-2020 14:20:07 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 41
+[15-Dec-2020 14:23:16 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 14:23:20 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:23:20 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:23:20 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:23:20 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 65
+[15-Dec-2020 14:23:27 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:23:27 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:23:27 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:23:27 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 65
+[15-Dec-2020 14:23:36 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 14:23:36 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 14:23:36 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 14:23:36 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[15-Dec-2020 15:09:38 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Dec-2020 15:09:47 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[15-Dec-2020 15:09:47 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[15-Dec-2020 15:09:47 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[15-Dec-2020 15:09:47 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[16-Dec-2020 11:01:06 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[16-Dec-2020 11:01:16 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[16-Dec-2020 11:01:16 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[16-Dec-2020 11:01:16 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[16-Dec-2020 11:01:16 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[17-Dec-2020 11:54:25 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[17-Dec-2020 11:54:28 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[17-Dec-2020 11:54:28 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[17-Dec-2020 11:54:28 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[17-Dec-2020 11:54:28 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 65
+[17-Dec-2020 11:54:34 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[17-Dec-2020 11:54:34 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[17-Dec-2020 11:54:34 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[17-Dec-2020 11:54:34 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[20-Dec-2020 13:40:09 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[22-Dec-2020 12:15:43 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[22-Dec-2020 12:15:48 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[22-Dec-2020 12:15:48 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[22-Dec-2020 12:15:48 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[22-Dec-2020 12:15:48 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 65
+[22-Dec-2020 12:15:55 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[22-Dec-2020 12:15:55 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[22-Dec-2020 12:15:55 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[22-Dec-2020 12:15:55 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[22-Dec-2020 13:49:38 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[22-Dec-2020 13:49:44 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[22-Dec-2020 13:49:44 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[22-Dec-2020 13:49:44 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[22-Dec-2020 13:49:44 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[25-Dec-2020 02:34:38 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[31-Dec-2020 09:56:55 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[03-Jan-2021 21:16:55 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[08-Jan-2021 12:13:39 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[12-Jan-2021 09:16:10 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[24-Jan-2021 10:41:28 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[24-Jan-2021 10:41:28 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[27-Jan-2021 10:24:18 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[30-Jan-2021 01:16:42 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[30-Jan-2021 14:46:08 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[07-Feb-2021 17:18:21 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[15-Feb-2021 14:56:33 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[17-Feb-2021 19:54:37 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[25-Feb-2021 10:50:34 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[25-Feb-2021 10:50:34 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[25-Feb-2021 15:01:23 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[02-Mar-2021 15:10:29 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[21-Mar-2021 05:35:26 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[21-Mar-2021 05:35:26 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[18-Apr-2021 06:20:58 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[18-Apr-2021 06:20:58 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[30-Apr-2021 10:44:21 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[19-May-2021 10:50:22 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[10-Jun-2021 07:18:17 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[10-Jun-2021 12:44:15 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[22-Jun-2021 02:05:58 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[22-Jun-2021 02:05:58 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[26-Jun-2021 12:40:55 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[26-Jun-2021 12:41:02 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[26-Jun-2021 12:41:08 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[26-Jun-2021 12:41:08 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[26-Jun-2021 12:41:08 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[26-Jun-2021 12:41:08 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38
+[30-Jun-2021 11:08:31 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[06-Jul-2021 12:13:12 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[11-Jul-2021 11:21:08 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[11-Jul-2021 11:21:09 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[13-Aug-2021 13:55:20 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[13-Aug-2021 13:55:20 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[28-Aug-2021 08:39:44 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: str in /home/xando/borneotransverse.com.my/cms/authentication/login.php on line 71
+[28-Aug-2021 08:39:51 ASIA/KUALA_LUMPUR] PHP Notice:  session_start(): A session had already been started - ignoring in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 3
+[28-Aug-2021 08:39:51 ASIA/KUALA_LUMPUR] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Securimage has a deprecated constructor in /home/xando/borneotransverse.com.my/cms/authentication/captcha/securimage.php on line 25
+[28-Aug-2021 08:39:51 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined variable: database_conn in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 13
+[28-Aug-2021 08:39:51 ASIA/KUALA_LUMPUR] PHP Notice:  Undefined index: autoSignin in /home/xando/borneotransverse.com.my/cms/authentication/password.php on line 38

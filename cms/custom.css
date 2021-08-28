@@ -1,0 +1,307 @@
+/* ------------------------------------- Global ------------------------------------- */
+:root {
+  --main-green: #004932;
+  --main-green-light:  #1CAF47;
+}
+
+/*Custom Fonts*/
+@font-face {
+  font-family: 'DidactGothic';
+  src: url('../fonts/Didact_Gothic/DidactGothic-Regular.ttf') format('truetype');
+}
+
+
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;    
+  /*font-family: 'DidactGothic';*/
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px !important;
+  box-sizing: border-box;
+  color:#444;
+  min-height: 100vh;
+}
+
+
+a {
+  color: #170C75;
+  transition: color .5s;  
+  background-color: transparent;
+}
+a:hover {
+  color: #351eff;
+  text-decoration: none;
+}
+
+.submenu {
+  color: #FFF !important;
+}
+.actived-submenu { background: #2a1cc0;}
+
+
+.my-container {
+  /*padding-left:5%;
+  padding-right:5%;*/
+  width:100%;
+  min-height:70vh;
+  
+}
+@media (max-width: 575px) {
+  .my-container {
+    padding-left:0;
+    padding-right:0;
+    width:100%;
+  }
+}
+
+
+.bg-contain {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.lt-light {
+  box-shadow:2px 2px 6px rgba(0,0,0,.4); border:1px solid #EFEFEF; border-top:1px solid white;
+}
+
+
+
+/* ------------------------------------- Header ------------------------------------- */
+.outter-header {
+  height:0;  
+}
+.inner-header {
+  /*background:rgba(255,255,255,.8) !important; not looking good*/
+  background:rgba(0,0,0,.8) !important;
+  z-index:10;
+  width:100%;
+  position: absolute;
+}
+.social-icon img {
+  width: 32px;
+}
+@media (max-width: 575px) {
+  .social-icon img {
+    width: 24px;
+  }
+}
+.hd-menu {
+  color:#014491 !important;;
+  transition: color .5s;
+}
+.hd-menu:hover {
+  color:#1e87ff !important;
+}
+.active-hd-menu {
+  color:#1e87ff !important;
+}
+
+
+.burger-menu {
+  display: inline-block;
+  color:#666;
+  font-size:26px;
+}
+.burger-menu-txt { position: relative; top:7px; width:auto; color:#666;}
+
+.menu {
+  position: absolute;  
+  z-index:3;  
+  height:0;
+  width: 100%;
+}
+.menu-inner {
+  position: relative;
+  width: 100%; 
+  padding:10px; 
+  
+  /*
+  border:1px solid #353535; 
+  background-color:rgba(26, 117, 26, 0.9);*/
+
+  border-top:1px solid var(--main-green);
+  background-color:rgba(0, 26, 17, 0.9);
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+  font-size:18px; 
+}
+.menu-inner a {
+color:white;
+text-decoration: none;
+}
+.menu-inner a:hover {
+  text-shadow: 0 0 8px rgba(255,255,255,.8);
+}
+.logo {
+  color:#AAA;
+  position:relative; left:-22px;
+}
+
+/* ------------------------------------- Page (Free-format page) ------------------------------------- */
+.page_title {
+  z-index:1;
+  width: calc(100% - 0.15%);
+  height:67px;
+  position:relative;
+  left:.1%;
+  padding:10px; 
+  border:1px solid #353535; 
+  background-color: rgba(0, 52, 102, .9);
+  text-align: center;
+  font-size:28px;
+  color:white;
+  text-shadow: 0 0 8px rgba(255,255,255,.8);
+}
+
+
+
+/* ------------------------------------- Home > Banner ------------------------------------- */
+.card {
+  border: none;
+}
+
+.carousel-item {
+  height: calc(120vh); background-position: center top; background-repeat: no-repeat; background-size: cover;
+}
+.carousel-control-prev {
+  left:-1%;
+}
+
+
+/* ------------------------------------- Home > Rows ------------------------------------- */
+
+.h1 {
+  font-size: 38px;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #666; 
+  line-height: 0.1em;
+  margin: 10px 0 40px; 
+}
+@media (max-width: 575px) {
+  .h1 {
+    font-size: 24px;
+  }
+}
+
+.h1 span { 
+   background:#fff; 
+   padding:0 20px; 
+}
+
+.h2 {
+  font-size: 20px;
+}
+
+.latest-btn {
+  width:100%; 
+  background:#333; 
+  color:white;
+  transition: background .5s;
+}
+.latest-btn:hover {  
+  background: #666;
+  color:white;
+}
+
+
+
+
+/* ------------------------------------- Footer ------------------------------------- */
+.back-top-outter{
+  position:relative; height:0 !important; overflow: visible; 
+}
+.back-top-inner {
+  float:right; position:absolute; top:-60px; right:0; background:white; width:60px; height:60px;color:#333; font-size:30px; text-align:center; padding:8px;
+  opacity:.2;
+  transition: opacity .5s;
+  cursor: pointer;
+}
+.back-top-inner:hover {
+  opacity:1;
+}
+
+
+/* ------------------------------------- Tour Listing ------------------------------------- */
+
+.cat-trigger {
+  z-index:10;
+  cursor: pointer;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  z-index: 4;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: 0 0 6px rgba(0,0,0,0.8);
+  text-align: center;
+  padding: 7px 0 0 1px;
+  color: #EEE;
+  position: fixed;
+  right: 0;
+  top: 50vh;
+}
+
+@media (max-width: 575px) {
+
+  .category-panel-outter {
+    display: none;
+    z-index: 3;
+
+  }
+
+  .category-panel {
+    position: fixed !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:auto;
+    max-height: 70vh;
+    background:white;
+    width: 89%;
+    box-shadow: 0 0 6px black;
+  }
+
+  .category-active {
+    display: block !important;
+    
+  }
+}
+
+
+.tour-card {
+  box-shadow:2px 2px 4px rgba(0, 0, 0, .2);
+  transition: box-shadow .5s;
+}
+.tour-card:hover {
+  box-shadow:2px 2px 8px rgba(0, 0, 0, .4);
+}
+
+.ico-cus {
+  color:#333;
+  margin-right:4px;
+}
+.ico-cus2 {
+  margin-right:4px;
+}
+.filter_menu {
+  padding:8px;
+  margin:0;
+  color:#333;
+  transition:background .5s, color .5s;
+}
+.filter_menu:hover {
+  background: #170C75;
+  color:#FFF;
+}
+.active_filter_menu {
+  color:#FFF;
+  background: #666;
+}
