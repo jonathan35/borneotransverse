@@ -38,7 +38,7 @@ $msg['Not Popular']='Are you sure you want to set as not popular?';	$db['Not Pop
 $unique_validation=array();
 
 
-$fields = array('id', 'category', 'position', 'status');
+$fields = array('id', 'category', 'position', 'status', 'seo_keyword', 'seo_description');
 $value = array();
 $type = array();
 $width = array();//width for input field
@@ -46,7 +46,7 @@ $placeholder = array();
 
 #####Design part#######
 $back = false;// "Back to listing" button, true = enable, false = disable
-$fic_1 = array(0=>array('2', '2'));//fic = fiels in column, number of fields by column $fic_1 normally for add or edit template
+$fic_1 = array(0=>array('4', '2'));//fic = fiels in column, number of fields by column $fic_1 normally for add or edit template
 $fic_2 = array('5', '1');//fic = fiels in column, number of fields by column $fic_2 normally for list template
 
 foreach((array)$fields as $field){
@@ -71,6 +71,8 @@ $placeholder['title'] = 'Title for profile page';
 //$placeholder['post_content'] = 'Description for profile page';
 
 
+$type['seo_keyword'] = 'textarea';
+$type['seo_description'] = 'textarea';
 
 
 $type['id'] = 'hidden';
@@ -101,8 +103,10 @@ foreach((array)$fields as $field){
 echo '</div>';
 */
 $cols = $items =array();
-$cols = array('Category' => '8', 'Position' => '2');//Column title and width
+$cols = array('Category' => 3, 'SEO Keyword' => 4, 'SEO Description' => 4, 'Position' => 1);//Column title and width
 $items['Category'] = array('category');
+$items['SEO Keyword'] = array('seo_keyword');
+$items['SEO Description'] = array('seo_description');
 $items['Position'] = array('position');
 //$items['Programme'] = array('programme','experience','experience_detail');
 //$items['Condition'] = array('illnesses','bankrupt','court');

@@ -39,7 +39,7 @@ $msg['Read']='Are you sure you want to set as read?';			$db['Read']=array('statu
 $msg['Replied']='Are you sure you want to set as repied?';	$db['Repied']=array('status', 'Repied');
 
 
-$unique_validation=array('tier');
+//$unique_validation=array('tier');
 
 $fields = array('id', 'name', 'email', 'contact', 'tour', 'date', 'message', 'status');
 $value = array();

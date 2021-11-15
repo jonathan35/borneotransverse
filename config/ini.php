@@ -3,14 +3,15 @@
 session_start();
 date_default_timezone_set('ASIA/KUALA_LUMPUR');
 
+error_reporting(0);
 
 
 //------------------- Database Connection ---------------------
 Class DBConn{
 	var $hostname = "localhost";
-	var $database = "xando_borneotransverse";
-	var $username = "xando_btusr";
-	var $password = "dholdaso8ip7gy1239t7gasdpiyug";
+	var $database = "borneotransverse";//xando_borneotransverse
+	var $username = "root";//xando_btusr
+	var $password = "";//dholdaso8ip7gy1239t7gasdpiyug
 }
 
 $DB = New DBConn;
@@ -27,7 +28,7 @@ if (!defined('HTTP')) {
 }
 
 if (!defined('ROOT')) {
-	define('ROOT', @str_repeat('../', count(explode("/", $_SERVER['REQUEST_URI'])) - 2));
+	define('ROOT', @str_repeat('../', count(explode("/", $_SERVER['REQUEST_URI'])) - 3));
 }
 
 if (!defined('A_ROOT')) {

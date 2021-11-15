@@ -35,7 +35,7 @@ $msg['Hide']='Are you sure you want to hide?';			$db['Hide']=array('status', '2'
 $msg['Activate']='Are you sure you want to activate?';	$db['Activate']=array('status', '1');
 $msg['Suspend']='Are you sure you want to suspend?';	$db['Suspend']=array('status', '0');
 
-$unique_validation=array('tier');
+//$unique_validation=array('tier');
 
 $fields = array('id', 'region', 'location', 'area', 'status', 'tier', 'min_checkout_price', 'max_checkout_price', 'delivery_fee');
 $value = array();

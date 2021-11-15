@@ -38,7 +38,7 @@ $msg['Hide']='Are you sure you want to hide?';			$db['Hide']=array('status', '2'
 $msg['Activate']='Are you sure you want to activate?';	$db['Activate']=array('status', '1');
 $msg['Suspend']='Are you sure you want to suspend?';	$db['Suspend']=array('status', '0');
 
-$unique_validation=array('tier');
+//$unique_validation=array('tier');
 
 $fields = array('id', 'photo',  'name', 'position', 'status', 'full_description');//, 'category', 'price', 'duration', 'departure', 'popular', , 'brief_description'
 

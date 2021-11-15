@@ -38,9 +38,9 @@ $msg['Hide']='Are you sure you want to hide?';			$db['Hide']=array('status', '2'
 $msg['Activate']='Are you sure you want to activate?';	$db['Activate']=array('status', '1');
 $msg['Suspend']='Are you sure you want to suspend?';	$db['Suspend']=array('status', '0');
 
-$unique_validation=array('tier');
+//$unique_validation=array('tier');
 
-$fields = array('id', 'location', 'tour_type', 'photo',  'name', 'position', 'status', 'full_description');//, 'category', 'price', 'duration', 'departure', 'popular', , 'brief_description'
+$fields = array('id', 'location', 'tour_type', 'photo',  'name', 'seo_keyword', 'seo_description', 'position', 'status', 'full_description');//, 'category', 'price', 'duration', 'departure', 'popular', , 'brief_description'
 
 $value = array();
 $type = array();
@@ -49,7 +49,7 @@ $placeholder = array();
 
 #####Design part#######
 $back = false;// "Back to listing" button, true = enable, false = disable
-$fic_1 = array(0=>array('5', '2'), 1 => array(1));//fic = fiels in column, number of fields by column $fic_1 normally for add or edit template
+$fic_1 = array(0=>array('4', '5'), 1 => array(1));//fic = fiels in column, number of fields by column $fic_1 normally for add or edit template
 $fic_2 = array('5', '1');//fic = fiels in column, number of fields by column $fic_2 normally for list template
 
 foreach((array)$fields as $field){
@@ -97,6 +97,9 @@ foreach((array)$results as $a){
 	}
 }
 
+$type['seo_keyword'] = 'textarea';
+$type['seo_description'] = 'textarea';
+
 
 $type['id'] = 'hidden';
 $type['photo'] = 'image';
@@ -138,10 +141,12 @@ echo '</div>';
 */
 $cols = $items =array();
 
-$cols = array('Location & Type' => '4', 'Tour' => '2', 'Name' => '5', 'Position' => '1');//Column title and width
+$cols = array('Location & Type' => 2, 'Tour' => 2, 'Name' => 3, 'SEO Keyword' => 2, 'SEO Description' => 2, 'Position' => 21);//Column title and width
 $items['Location & Type'] = array('location', 'tour_type');
 $items['Tour'] = array('photo');
 $items['Name'] = array('name');
+$items['SEO Keyword'] = array('seo_keyword');
+$items['SEO Description'] = array('seo_description');
 $items['Position'] = array('position');
 
 
