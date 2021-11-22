@@ -19,24 +19,31 @@
                     </div>
                 </div> 
             </div>
-            <div class="col-12 col-md-7 collapse d-md-inline pr-0" id="toggleMenu" style="font-weight:bold; border-top:1px solid #CCC;">
-                <div class="row d-flex flex-row text-center justify-content-end pt-0 pb-2 pr-0 mt-1 pt-md-4 pb-md-0">
-                    <div class="d-none d-md-inline col-md pr-0">&nbsp;</div>
-                    <div class="d-none d-md-inline col-md pr-0">&nbsp;</div>
-                    <div class="col-12 col-md pt-2 pb-2">
+            <div class="col-12 col-md-6 offset-md-1 collapse d-md-inline pr-0 flex-center" id="toggleMenu" style="font-weight:bold; border-top:1px solid #CCC;">
+                <div class="row d-flex flex-row text-center justify-content-end pt-0 pb-2 pr-0 mt-1 pb-md-0 flex-center" style="justify-content:right; min-height:78px;">
+                    <!--<div class="d-none d-md-inline col-md pr-0">&nbsp;</div>
+                    <div class="d-none d-md-inline col-md pr-0">&nbsp;</div>-->
+                    <div class="col-12 col-md pt-2 pb-2" style="flex-grow: 1">
                         <a href="<?php echo ROOT?>tours" class="hd-menu <?php if(strpos($_SERVER['REQUEST_URI'], '/tours') || strpos($_SERVER['REQUEST_URI'], '/tour_details')) echo 'active-hd-menu';?>">Tour Details</a>
                     </div>
-                    <div class="col-12 col-md pt-2 pb-2">
+                    <div class="col-12 col-md pt-2 pb-2" style="flex-grow: 1">
                         <a href="<?php echo ROOT?>best_deal" class="hd-menu <?php if(strpos($_SERVER['REQUEST_URI'], '/best_deal')) echo 'active-hd-menu';?>">Best Deals</a>
                     </div>
-                    <div class="col-12 col-md pt-2 pb-2">                       
+                    <div class="col-12 col-md pt-2 pb-2" style="flex-grow: 1">                       
                         <a href="<?php echo ROOT?>news" class="hd-menu <?php if(strpos($_SERVER['PHP_SELF'], '/news.php')) echo 'active-hd-menu';?>">Announcement</a>
                     </div>
-                    <div class="col-12 col-md pt-2 pb-2">
+                    <div class="col-12 col-md pt-2 pb-2" style="flex-grow: 1">
                         <a href="<?php echo ROOT?>gallery" class="hd-menu <?php if(strpos($_SERVER['PHP_SELF'], '/gallery.php')) echo 'active-hd-menu';?>">Photo Gallery</a>
-                    </div>               
+                    </div>
+                    
+                    <div class="col-12 col-md pt-2 pb-2 pl-md-5 pl-md-5" style="flex-grow: 2">
+                        <?php include 'search.php';?>
+                    </div>
                 </div>
+                
             </div>
+            
+            
         </div>
 
         <div class="row collapse d-md-block" id="toggleMenu2" style="background-color:#170C75;">
@@ -81,6 +88,9 @@ $page['title']?></a>
                         </div>
                     <?php }?>
                 </div>
+
+
+                
             </div>
         </div>
 

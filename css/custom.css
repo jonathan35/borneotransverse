@@ -58,6 +58,15 @@ a:hover {
 }
 
 
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+}
+
+
 .bg-contain {
   background-repeat: no-repeat;
   background-size: contain;

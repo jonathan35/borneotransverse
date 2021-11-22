@@ -64,10 +64,55 @@ $maxPerPage=18;
 
 
 
+
+if(!empty($_POST['keyword']) && !empty($_POST['user_keyword'])){
+    
+    //---------------- Update product_keywords ---------------------
+    $product = sql_read("select id from tour where $sta_cond $key_cond $type_cond $cat_cond $loc_cond limit 1", str_repeat('s',count($params)), $params);
+    
+    $k['product'] = $product['id'];
+    $k['user_keyword'] = $_POST['user_keyword'];
+    $k['selected_keyword'] = $_POST['keyword'];
+    sql_save("product_keywords", $k);
+    
+
+    //---------------- Update product_analytic > search ---------------------
+    if(!empty($product['id'])){
+        $exist = sql_read("select id, search from product_analytic where product=? limit 1", 'i', $product['id']);
+
+        if(!empty($exist['id'])){
+            $analytic['id'] = $exist['id'];
+            $analytic['search'] = $exist['search'] + 1;
+        }else{
+            $analytic['product'] = $product['id'];
+            $analytic['search'] = 1;
+        }        
+        sql_save("product_analytic", $analytic);
+    }
+}/*
+*/
+
+
 ?>
 <div class="row">
 
-    <?php foreach((array)$tours as $tour){?>
+    <?php foreach((array)$tours as $tour){
+        
+                                        
+        //---------------- Update product_analytic > display ---------------------
+        $exist = sql_read("select id, display from product_analytic where product=? limit 1", 'i', $tour['id']);
+
+        if(!empty($exist['id'])){
+            $analytic['id'] = $exist['id'];
+            $analytic['display'] = $exist['display'] + 1;
+        }else{
+            $analytic['product'] = $tour['id'];
+            $analytic['display'] = 1;
+        }
+        
+        sql_save("product_analytic", $analytic);
+        
+        ?>
         
         <div class="col-12 col-md-4 p-4 page page<?php echo $itemCount?>" style="<?php if($itemCount>$maxPerPage){?> display:none;<?php }?>">
             <a href="<?php echo ROOT.$tour_details?>/<?php echo $str_convert->to_url($tour['name'])?>">

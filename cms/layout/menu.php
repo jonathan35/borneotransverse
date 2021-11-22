@@ -12,7 +12,11 @@
   <div class="nav lnav" link="../tour/tour">Tour</div>
   <div class="nav lnav" link="../tour/best_deal">Best Deal</div>
   <div class="nav lnav" link="../tour/tour_type">Tour Type</div>
-  <div class="nav lnav" link="../tour/message?tab=New">Message</div>  
+  <div class="nav lnav" link="../tour/message?tab=New">Message</div>
+  <div class="nav lnav" link="../tour/analytic_report">
+    Analytic Report
+    <span style="font-size:80%; color:red;">new</span>
+  </div>
   <!--
     <div class="nav lnav" link="../tour/location">Tour Location</div>
   <div class="nav lnav" link="../tour/category">Tour Category</div>

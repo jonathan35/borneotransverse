@@ -14,6 +14,22 @@ if(!empty($_GET['p'])){
     $tour = sql_read("select * from $tour_table where status=1 and name like ? limit 1", 's', $tour_name);
     //debug($tour);
 
+    //---------------- Update product_analytic > click - Start ---------------------
+    if(!empty($tour['id'])){
+        $exist = sql_read("select id, click from product_analytic where product=? limit 1", 'i', $tour['id']);
+
+        if(!empty($exist['id'])){
+            $analytic['id'] = $exist['id'];
+            $analytic['click'] = $exist['click'] + 1;
+        }else{
+            $analytic['product'] = $tour['id'];
+            $analytic['click'] = 1;
+        }
+        
+        sql_save("product_analytic", $analytic);
+    }
+    //---------------- Update product_analytic > click - End ---------------------
+
     if(!empty($tour['tour_type'])){
         $type = sql_read('select * from tour_type where status=1 and id=? limit 1', 'i', $tour['tour_type']);
     }
